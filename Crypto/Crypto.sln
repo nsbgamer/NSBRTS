@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypto", "Crypto\Crypto\Crypto.csproj", "{6D86C31B-2D6A-4BC8-B257-B09C52017FF0}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "CryptoContent", "Crypto\CryptoContent\CryptoContent.contentproj", "{4DB3A415-A792-4A8A-AB21-9854B706105C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D86C31B-2D6A-4BC8-B257-B09C52017FF0}.Debug|x86.ActiveCfg = Debug|x86
+		{6D86C31B-2D6A-4BC8-B257-B09C52017FF0}.Debug|x86.Build.0 = Debug|x86
+		{6D86C31B-2D6A-4BC8-B257-B09C52017FF0}.Release|x86.ActiveCfg = Release|x86
+		{6D86C31B-2D6A-4BC8-B257-B09C52017FF0}.Release|x86.Build.0 = Release|x86
+		{4DB3A415-A792-4A8A-AB21-9854B706105C}.Debug|x86.ActiveCfg = Debug|x86
+		{4DB3A415-A792-4A8A-AB21-9854B706105C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

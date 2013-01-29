@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rpg> 
+<guns>
+    <name>
+      Diaper Gun
+      <id>0</id>
+      <cost>0</cost>
+      <sell>0</sell>
+      <range>0</range>
+      <damage>0</damage>
+      <firerate>0</firerate>
+      <accuracy>0</accuracy>
+      <weight>0</weight>
+      <magazineSize>0</magazineSize>
+      <reloadTime>0</reloadTime>
+    </name>
+    
+    <name>
+      Diaper Cannon
+      <id>0</id>
+      <cost>0</cost>
+      <sell>0</sell>
+      <range>0</range>
+      <damage>0</damage>
+      <firerate>0</firerate>
+      <accuracy>0</accuracy>
+      <weight>0</weight>
+      <magazineSize>0</magazineSize>
+      <reloadTime>0</reloadTime>
+    </name>
+
+    <name>
+      Gopher Gun
+      <id>0</id>
+      <cost>0</cost>
+      <sell>0</sell>
+      <range>0</range>
+      <damage>0</damage>
+      <firerate>0</firerate>
+      <accuracy>0</accuracy>
+      <weight>0</weight>
+      <magazineSize>0</magazineSize>
+      <reloadTime>0</reloadTime>
+    </name>
+
+    <name>
+      Chuck Chucker
+      <id>0</id>
+      <cost>0</cost>
+      <sell>0</sell>
+      <range>0</range>
+      <damage>0</damage>
+      <firerate>0</firerate>
+      <accuracy>0</accuracy>
+      <weight>0</weight>
+      <magazineSize>0</magazineSize>
+      <reloadTime>0</reloadTime>
+    </name>
+  </guns>
+  
+  <vehicles>
+    <name>
+      Kitten Cannon
+      <id>0</id>
+      <cost>0</cost>
+      <sell>0</sell>
+      <speed>0</speed>
+      <turningSpeed>0</turningSpeed>
+      <size>0</size>
+    </name>
+  </vehicles>
+
+  <terrain>
+    <type>
+      Mountains
+      <travelSpeedCost>0</travelSpeedCost>
+      <buildImpactCost>0</buildImpactCost>
+    </type>
+    <type>
+      Desert
+      <travelSpeedCost>0</travelSpeedCost>
+      <buildImpactCost>0</buildImpactCost>
+    </type>
+    <type>
+      Jungle
+      <travelSpeedCost>0</travelSpeedCost>
+      <buildImpactCost>0</buildImpactCost>
+    </type>
+    <type>
+      Beach
+      <travelSpeedCost>0</travelSpeedCost>
+      <buildImpactCost>0</buildImpactCost>
+    </type>
+    <type>
+      Marsh
+      <travelSpeedCost>0</travelSpeedCost>
+      <buildImpactCost>0</buildImpactCost>
+    </type>
+
+
+  </terrain>
+</rpg>
+
+
+
+MAP
+//Grid based
+//terrain
+
+
+BACKGROUND
+// color-based or texture-based
+
+
+INVENTORY
+// You can have certain items with you when you go and start making your bases
+// purchase items to put in inventory
+// arrange in inventory screen alphabetically
+// could also include tabs that sort item by type
+// money from battles
+// money from taxes
+// money from looting
+// Bottom line: money system
+id
+userid
+itemid
+
+
+ITEMS
+// more modern the item, the more it's cost idNum name level cost sellPrice
+id
+name
+type (resource, road, building, item, defense)
+resourcetype //if type = resource then check this value, else ignore.
+cost
+sellPrice
+skillreq
+deals
+taxvalue
+
+
+VENDORS
+//option to go to vendor at the start of every turn
+//can be killed
+id
+name
+selling
+location (x,y)
+speech
+
+PLAYER
+id
+username
+password     //if multiuser
+lastPos (x,y)
+equipped
+health
+class
+skills
+faction
+guild
+
+MENU
+//Construct building (factory, house, base,walls), defenses (walls, fences, etc.), Advance on enemy, retreat
+
+BATTLE
+
+PLAYING FIELD
+
+ITEMS ON FIELD
+id
+itemid
+owner
+location (x,y)
+type
+
+FACTION
+id
+name
+
+BUILDINGS
+id
+name
+reqmaterials //wood, stone, iron, steel, etc.
+type //house, factory, military base
+defense
+health
+taxvalue
+
+MINE
+id
+location (x,y)
+owner
+type
+unitsPerTurn
+maxNumTurns
+turnsLeft
+accessible
+closestbase (x,y)
+

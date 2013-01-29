@@ -1,0 +1,20 @@
+        /// <summary> This is a <!-- Comment -->summary. </summary>  
+
+        /// <summary>  
+        /// Does nothing at all you would be concerned with.  
+        /// Is only ment to be an example for XML documentation  
+        /// in C# code.  
+        /// </summary>  
+
+        /// <!-- This is a comment. -->  
+
+        /// <param name="SomethingElse">Description for the "SomethingElse" param</param>  
+        /// <param name="AnotherThing">Description <!-- Comment --> for the "AnotherThing" param</param>  
+        /// <param name="SomePointer">Description for the "SomePointer" param</param>  
+
+        /// <returns>Description for what the function returns</returns>  
+
+        /// <remarks>Text put here will not display in a Visual Studio summary box.  
+        /// It is ment to add in further detail for anyone who might read this  
+        /// code in the future  
+        /// </remarks>
